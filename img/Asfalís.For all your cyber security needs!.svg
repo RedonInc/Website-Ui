@@ -3,7 +3,7 @@
     <style>
       .cls-1 {
         fill: #fff;
-        font-size: 150px;
+        font-size: 120px;
         margin: 0;
         font-family: TimesNewRomanPSMT, Times New Roman;
       }
