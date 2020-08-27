@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
     <title>Asfalís</title>
 </head>
 <!---->
 <header>
     <nav>
         <div id="logo">
-           <img src="./img/Asfalís.For all your cyber security needs!.svg" alt="">
+            <img src="./img/Asfalís.For all your cyber security needs!.svg" alt="">
         </div>
         <div id="link">
             <ul>
-                <li href="#home">Home</li>
-                <li href="http://google.com">Tutorial</li>
-                <li href="">Resources</li>
-                <li href="">Lab</li>
-                <li href="">About Us</li>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#tutorial">Tutorial</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#lab">Lab</a></li>
+                <li><a href="#about">About Us</a></li>
             </ul>
         </div>
-    </nav>  
+    </nav>
 </header>
 
 <body>
@@ -35,66 +37,113 @@
         </div>
         <div class="home_foreground">
             <p id="p1">For all your cyber security needs!</p>
-            <p id="p2">Take a dive into the world of cyber security and learn<br>how you can make the web a better place</p>
-            <button class="wrapper">Let's Go!</button>
+            <p id="p2">Take a dive into the world of cyber security and learn<br>how you can make the web a better place
+            </p>
+            <button class="wrapper"><a href="#tutorial">Let's Go!</a></button>
         </div>
     </div>
-
-    <div class="base">
+    <div id="tutorial" class="base">
         <div class="tut_background">
             <div class="filter"></div>
             <img src="./img/Tutorial.jpg" alt="">
         </div>
         <div class="base_foreground">
-            <p class="p1">Tutorials.</p>
-            <p class="p2">Just starting out in the cyber security space? <br>
-                Watch these beginner-friendly videos to get all caught up with different <br>
-                types of vulnerabilities, and a lot more.
-            </p>
-            <button class="wrapper take-there"><i class="fas fa-chevron-right fa-5x"></i><br>Take Me There!</button>
+            <div class="text">
+                <p class="p1">Tutorials.</p>
+                <p class="p2">Just starting out in the cyber security space? <br>
+                    Watch these beginner-friendly videos to get all caught up with different <br>
+                    types of vulnerabilities, and a lot more.
+                </p>
+                <button type="button"class="wrapper take-there"><i class="fas fa-chevron-right fa-5x"></i><br>Take Me There!</</button>
+            </div>
+            <div>
+                <div class="slider">
+                    <ul class="ul-link">
+                        <li><a href="#tutorial" class="butn butn-active "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#resources" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#lab" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#about" class="butn "><i class="fas fa-circle"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="base">
+    <div id="resources" class="base">
         <div class="res_background">
             <div class="filter"></div>
             <img src="./img/Resources.jpg" alt="">
         </div>
         <div class="base_foreground">
-            <p class="p1">Resources.</p>
-            <p class="p2">Want to expand your knowledge base, but videos aren't your thing. <br>
-                Read about the new vulnerabilities, recommended books and lot more. 
-            </p>
-            <button class="wrapper take-there"><i class="fas fa-chevron-right fa-5x"></i><br>Take Me There!</button>
+            <div class="text">
+                <p class="p1">Resources.</p>
+                <p class="p2">Want to expand your knowledge base, but videos aren't your thing. <br>
+                    Read about the new vulnerabilities, recommended books and lot more.
+                </p>
+                <button class="wrapper take-there"><i class="fas fa-chevron-right fa-5x"></i><br>Take Me There!</button>
+            </div>
+            <div>
+                <div class="slider">
+                    <ul class="ul-link">
+                        <li><a href="#tutorial" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#resources" class="butn butn-active "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#lab" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#about" class="butn "><i class="fas fa-circle"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="base">
+    <div id="lab" class="base">
         <div class="lab_background">
             <div class="filter"></div>
             <img src="./img/Labs.jpg" alt="">
         </div>
         <div class="base_foreground">
-            <p class="p1">Labs.</p>
-            <p class="p2">Practice your art in these specially created websites, which are <br>
-                vulnerable to a variety of different attacks.  
-            </p>
-            <button class="wrapper take-there"><i class="fas fa-chevron-right fa-5x"></i><br>Take Me There!</button>
+            <div class="text">
+                <p class="p1">Labs.</p>
+                <p class="p2">Practice your art in these specially created websites, which are <br>
+                    vulnerable to a variety of different attacks.
+                </p>
+                <button class="wrapper take-there"><i class="fas fa-chevron-right fa-5x"></i><br>Take Me There!</button>
+            </div>
+            <div>
+                <div class="slider">
+                    <ul class="ul-link">
+                        <li><a href="#tutorial" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#resources" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#lab" class="butn butn-active "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#about" class="butn "><i class="fas fa-circle"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
-
-    <div class="base">
+    <div id="about" class="base">
         <div class="about_background">
             <div class="filter"></div>
             <img src="./img/About.jpg" alt="">
         </div>
         <div class="base_foreground">
-            <p class="p1">Labs.</p>
-            <p class="p2">Stay in touch with us with our weekly newsletter, or contact us by <br>
-                getting in touch with any of our social media handles.   
-            </p>
-            <button class="wrapper take-there"><i class="fas fa-chevron-right fa-5x"></i><br>Take Me There!</button>
+            <div class="text">
+                <p class="p1">Labs.</p>
+                <p class="p2">Stay in touch with us with our weekly newsletter, or contact us by <br>
+                    getting in touch with any of our social media handles.
+                </p>
+                <button class="wrapper take-there"><i class="fas fa-chevron-right fa-5x"></i><br>Take Me There!</button>
+            </div>
+            <div>
+                <div class="slider">
+                    <ul class="ul-link">
+                        <li><a href="#tutorial" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#resources" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#lab" class="butn "><i class="fas fa-circle"></i></a></li>
+                        <li><a href="#about" class="butn butn-active"><i class="fas fa-circle"></i></a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
 </body>
+<script src="./index.js"></script>
+
 </html>

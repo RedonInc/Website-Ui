@@ -36,6 +36,11 @@ nav #link li{
     color: #fff;
 }
 
+nav #link li a{
+    color: inherit;
+    text-decoration: none;
+}
+
 #home{
     position: relative;
     height: 100vh;
@@ -94,6 +99,11 @@ nav #link li{
     margin: 24px 30px 36px;
     background-position: right center;}
 
+    #home .home_foreground button a{
+        text-decoration: none;
+        color: inherit;
+    }
+
 .base .tut_background img{
     position: absolute;
     top: -90%;
@@ -136,9 +146,15 @@ nav #link li{
 
 .base .base_foreground{
     position: absolute;
+    display: flex;
     height: 100vh;
     width: 80%;
     margin: 10%;
+}
+
+.base .base_foreground .text{
+    height: 100vh;
+    width: 90%;
 }
 
 .take-there{
@@ -148,12 +164,33 @@ nav #link li{
     background-color: transparent;
 }
 
+.base .base_foreground .slider{
+    height: 50vh;
+    width: 100%;
+    margin-top: 100%;
+}
+
+.ul-link{
+    list-style: none;
+}
+
 .wrapper {
     margin: 0;
     position: absolute;
     left: 50%;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+
+.butn{
+    display: block;
+    text-decoration: none;
+    margin-top: 105%;
+    width: 100%;
+    color: #4a4a48;
+}
+.butn-active{
+    color: #4fff84;
 }
 
 .filter{
@@ -177,7 +214,13 @@ nav #link li{
     color: #fff;
 }
 
+body::-webkit-scrollbar {
+    display: none;
+}
+
 body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
     height: 500vh;
-    background-color: brown;
+    background-color: #fb7813;
 }
