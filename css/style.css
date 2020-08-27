@@ -94,13 +94,67 @@ nav #link li{
     margin: 24px 30px 36px;
     background-position: right center;}
 
-#wrapper {
+
+
+#tutorial {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    font-family: TimesNewRomanPSMT, 'Times New Roman';
+    overflow: hidden;
+}
+
+
+#tutorial .tut_background img{
+    position: absolute;
+    top: -90%;
+    z-index: -1;
+    width: 100%;
+}
+
+
+#tutorial .tut_foreground{
+    position: absolute;
+    height: 100vh;
+    width: 80%;
+    margin: 10%;
+}
+
+#tutorial .tut_foreground button{
+    margin-top: 5%;
+    color: #fff;
+    border: none;
+    background-color: transparent;
+}
+
+.wrapper {
     margin: 0;
     position: absolute;
     left: 50%;
     -ms-transform: translateX(-50%);
     transform: translateX(-50%);
-  }
+}
+
+.filter{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    opacity: 0.4;
+    background-color: #000;
+}
+
+.p1{
+    margin: 8% 0 3%;
+    font-size: 50px;
+    font-weight: lighter;
+    color: #fff;
+}
+
+.p2 {
+    margin: 2% 0 5%;    
+    font-size: 25px;
+    color: #fff;
+}
 
 body{
     height: 500vh;
