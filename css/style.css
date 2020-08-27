@@ -94,9 +94,39 @@ nav #link li{
     margin: 24px 30px 36px;
     background-position: right center;}
 
+.base .tut_background img{
+    position: absolute;
+    top: -90%;
+    z-index: -1;
+    width: 100%;
+}
 
+.base .res_background img{
+    position: absolute;
+    object-fit: fill;
+    top: -10%;
+    z-index: -1;
+    width: 100%;
+}
 
-#tutorial {
+.base .lab_background img{
+    position: absolute;
+    object-fit: fill;
+    top: -10%;
+    z-index: -1;
+    width: 100%;
+}
+
+.base .about_background img{
+    position: absolute;
+    object-fit: fill;
+    top: -10%;
+    z-index: -1;
+    width: 100%;
+}
+
+/*======================================Global Style===========================*/
+.base {
     position: relative;
     height: 100vh;
     width: 100%;
@@ -104,23 +134,14 @@ nav #link li{
     overflow: hidden;
 }
 
-
-#tutorial .tut_background img{
-    position: absolute;
-    top: -90%;
-    z-index: -1;
-    width: 100%;
-}
-
-
-#tutorial .tut_foreground{
+.base .base_foreground{
     position: absolute;
     height: 100vh;
     width: 80%;
     margin: 10%;
 }
 
-#tutorial .tut_foreground button{
+.take-there{
     margin-top: 5%;
     color: #fff;
     border: none;
