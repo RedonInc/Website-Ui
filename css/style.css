@@ -2,7 +2,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    height: 20vh;
+    height: 10vh;
     width: 100%;
     z-index: 1;
 }
@@ -221,6 +221,6 @@ body::-webkit-scrollbar {
 body{
     -ms-overflow-style: none;
     scrollbar-width: none;
-    height: 500vh;
-    background-color: #fb7813;
+    margin: 0;
+    background-color: #000000;
 }
